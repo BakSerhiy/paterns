@@ -1,2 +1,5 @@
-package creational.strategy;public class RouteStrategy {
+package creational.strategy;
+
+public interface RouteStrategy {
+    void buildRoute();
 }

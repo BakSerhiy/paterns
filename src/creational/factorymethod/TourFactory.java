@@ -1,2 +1,5 @@
-package creational.factorymethod;public class TourFactory {
+package creational.factorymethod;
+
+public abstract class TourFactory {
+    public abstract Tour createTour();
 }

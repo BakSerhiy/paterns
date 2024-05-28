@@ -1,2 +1,5 @@
-package creational.observer;public class Observer {
+package creational.observer;
+
+public interface Observer {
+    void update(String message);
 }

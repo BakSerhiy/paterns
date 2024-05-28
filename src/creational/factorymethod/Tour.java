@@ -1,2 +1,6 @@
-package creational.factorymethod;public class Tour {
+package creational.factorymethod;
+
+public abstract class Tour {
+    protected String description;
+    public String getDescription() { return description; }
 }

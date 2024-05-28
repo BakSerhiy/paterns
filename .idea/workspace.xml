@@ -1,11 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2169afe6-c8d8-4b14-84bc-2ec5497d19f2" name="Changes" comment="" />
+    <list default="true" id="2169afe6-c8d8-4b14-84bc-2ec5497d19f2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/structural/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/adapters/ExternalPaymentSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/adapters/StripePayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/adapters/StripePaymentAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/bridges/HotelRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/bridges/LuxuryRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/bridges/RoomType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/bridges/SingleRoomType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/composites/HotelComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/composites/RoomComposite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/composites/SingleRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/decorators/BasicRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/decorators/BreakfastDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/decorators/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/decorators/RoomDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/decorators/WiFiDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/facades/BookingFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/flyweights/RoomFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structural/proxies/RoomProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/decorator/AirportTransfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/decorator/AirportTransfer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/decorator/ExtraMeals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/decorator/ExtraMeals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/decorator/Insurance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/decorator/Insurance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/decorator/TourDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/decorator/TourDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/factorymethod/BeachTour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factorymethod/BeachTour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/factorymethod/CityTour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factorymethod/CityTour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/factorymethod/SkiTour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factorymethod/SkiTour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/factorymethod/Tour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factorymethod/Tour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/factorymethod/TourFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factorymethod/TourFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/observer/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/observer/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/observer/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/observer/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/observer/TourNotifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/observer/TourNotifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/observer/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/observer/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/singleton/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/singleton/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/strategy/CheapestRouteStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/strategy/CheapestRouteStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/strategy/FastestRouteStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/strategy/FastestRouteStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/strategy/RoutePlanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/strategy/RoutePlanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/creational/strategy/RouteStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/strategy/RouteStrategy.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -16,12 +70,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
