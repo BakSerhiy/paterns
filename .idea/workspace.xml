@@ -4,47 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2169afe6-c8d8-4b14-84bc-2ec5497d19f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/structural/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/adapters/ExternalPaymentSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/adapters/StripePayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/adapters/StripePaymentAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/bridges/HotelRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/bridges/LuxuryRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/bridges/RoomType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/bridges/SingleRoomType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/composites/HotelComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/composites/RoomComposite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/composites/SingleRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/decorators/BasicRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/decorators/BreakfastDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/decorators/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/decorators/RoomDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/decorators/WiFiDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/facades/BookingFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/flyweights/RoomFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structural/proxies/RoomProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="2169afe6-c8d8-4b14-84bc-2ec5497d19f2" name="Changes" comment="laba_2">
+      <change afterPath="$PROJECT_DIR$/src/behavioral/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/chainofresponsibility/DiscountHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/chainofresponsibility/LoyaltyDiscountHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/chainofresponsibility/SeasonalDiscountHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/command/AddToCartCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/command/ApplyDiscountCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/iterator/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/iterator/CartIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/iterator/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/mediator/CartMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/mediator/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/memento/CartMemento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/memento/CartOriginator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/observer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/observer/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/state/NewOrderState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/state/OrderState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/state/ProcessingOrderState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/state/ShippedOrderState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/strategy/DiscountStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/strategy/RegularCustomerStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/strategy/SeasonalDiscountStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/template/OnlineOrderProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/template/OrderProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/visitor/CartVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/visitor/DiscountVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/visitor/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavioral/visitor/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/decorator/AirportTransfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/decorator/AirportTransfer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/decorator/ExtraMeals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/decorator/ExtraMeals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/decorator/Insurance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/decorator/Insurance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/decorator/TourDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/decorator/TourDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/factorymethod/BeachTour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factorymethod/BeachTour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/factorymethod/CityTour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factorymethod/CityTour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/factorymethod/SkiTour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factorymethod/SkiTour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/factorymethod/Tour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factorymethod/Tour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/factorymethod/TourFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factorymethod/TourFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/observer/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/observer/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/observer/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/observer/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/observer/TourNotifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/observer/TourNotifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/observer/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/observer/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/singleton/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/singleton/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/strategy/CheapestRouteStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/strategy/CheapestRouteStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/strategy/FastestRouteStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/strategy/FastestRouteStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/strategy/RoutePlanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/strategy/RoutePlanner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/creational/strategy/RouteStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/strategy/RouteStrategy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +77,55 @@
       <option name="presentableId" value="Default" />
       <updated>1716786516598</updated>
     </task>
+    <task id="LOCAL-00001" summary="laba_2">
+      <option name="closed" value="true" />
+      <created>1716873639079</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716873639079</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="70599dc9-5298-41c3-9dcb-10348662f75c" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="70599dc9-5298-41c3-9dcb-10348662f75c">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/serhiy12345/IdeaProjects/paterns_1/src/structural/adapters" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="laba_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="laba_2" />
   </component>
 </project>
